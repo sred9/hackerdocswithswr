@@ -101,7 +101,9 @@ class IndexRoute extends React.Component {
 		<Helmet>
  
 	 
-  
+	  
+	  <meta name="theme-color" content="#141c3a"/>
+
 	  <meta property="og:locale" content="en_US"/>
       <meta property="og:type" content="article"/>
       <meta property="og:title" content={`${title} | ${GatsbyConfig.siteMetadata.title}`}/>
