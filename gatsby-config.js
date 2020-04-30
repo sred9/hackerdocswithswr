@@ -15,8 +15,25 @@ module.exports = {
 	'gatsby-plugin-catch-links',
 	'gatsby-plugin-dark-mode',
     'gatsby-plugin-optimize-svgs',
+	`gatsby-plugin-offline`,
 
-		
+	{
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f9f9f9`,
+        theme_color: `#141c3a`,
+        display: `standalone`,
+      },
+    },	
+	{
+  resolve: `gatsby-plugin-offline`,
+  options: {
+    precachePages: [`/`, `/hackers/*`],
+  },
+},
     {
       resolve: 'gatsby-source-filesystem',
       options: {
