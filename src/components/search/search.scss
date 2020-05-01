@@ -1,7 +1,8 @@
 @import '../../css/variables';
 
 .search {
-  display: none;
+  display: block;
+  display: inline-flex;
 
   @media (min-width: $desktop-breakpoint) {
     margin: 0 0 0 24px;
@@ -18,11 +19,12 @@
   background: var(--searchBackground);
   color: var(--searchColor);	
   border: 0;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 3px;
+  font-size: 17px;
   font-weight: 400;
   font-family: inherit;
   position: relative;
-  padding: 5.5px 16px;
+  padding: 4px 16px;
   width: 160px;
+  margin-right: 1.5rem;
 }

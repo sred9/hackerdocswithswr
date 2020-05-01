@@ -91,7 +91,7 @@ export default ({ pathname }) => {
 
     
 
-      <Search />
+     <Search />
 	  
 
     </div>
