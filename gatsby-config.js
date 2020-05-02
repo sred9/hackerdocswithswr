@@ -248,6 +248,7 @@ module.exports = {
         apiKey: "acfb7def12803db2cd4ac0539b2b571a",
         indexName: "hackerone",
         inputSelector: "#algolia-doc-search",
+		debug: true
       },
     },
 	{

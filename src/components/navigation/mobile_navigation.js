@@ -113,7 +113,7 @@ class MobileNavigation extends React.Component {
       <div role="navigation" className={classes}>
        
 		      <Link to="/" className="navigation__logo">
-        <img src={logo} className="navigation__logo-image" alt="" />
+        <img src="https://1vg0qaibabjd.wpcdn.shift8cdn.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/07/finalmenulogo_bsvmyk1.png.webp" className="navigation__logo-image" alt="" />
       </Link>
 
 
@@ -168,9 +168,15 @@ class MobileNavigation extends React.Component {
 	  
 	  
 	  
+	  <ul className="mobile-navigation__list__toggle">
+	  
+	  		
 	  
 	  
-	  		<li class="navigation__item dark-toggle"><ThemeToggler>
+	  
+	  <li class="navigation__item dark-toggle">
+			
+			<ThemeToggler>
         {({ theme, toggleTheme }) => (
           <label class="dark-toggle">
             <input class="dark-toggle"
@@ -179,12 +185,21 @@ class MobileNavigation extends React.Component {
               checked={theme === 'dark'}
             />  <label for="checkbox" ></label>
 {' '}
-            <svg version="1.1" width="25" height="25" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+            <svg version="1.1" width="27" height="27" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z" class="dark-toggle"></path></svg>
           </label>
         )}
-      </ThemeToggler></li>
+      </ThemeToggler>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+		</li>
 	  
 	  
 	  
@@ -195,18 +210,15 @@ class MobileNavigation extends React.Component {
 	  
 	  
 	  
-	  
-	  
-	  
-	  
-	  
+	  <li class="navigation__item">
         <img
           src={this.state.isMenuVisible ? clearIcon : hamburgerIcon}
           className="mobile-navigation__menu"
           alt=""
           onClick={this.handleClick()}
         />
-		
+		</li>
+		</ul>
 
 
         {this.state.isMenuVisible && (

@@ -3,7 +3,7 @@
 .mobile-navigation__logo {
   color: white;
   text-decoration: none;
-  display: block;
+  display: flex;
   margin: 0 auto;
   height: 28px;
   width: auto;
@@ -60,21 +60,42 @@ padding: 0px 20px;
   }
 
   @media (min-width: $desktop-breakpoint + 1) {
-    display: block;
+    display: flex;
   }
 }
 
 .mobile-navigation__list {
   margin: 0;
   padding: 0;
+ .navigation__item{
+ display: block;
+
+ }
+}
+
+
+.mobile-navigation__list__toggle {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: right;
+  
+  
+    @media (max-width: $desktop-breakpoint) {
+    width: 30%;
+	float: right;
+  }
+ 
 }
 
 .mobile-navigation__menu {
-  margin: 0;
-  padding: 5px 0;
-  position: absolute;
+  margin-top: 0px;
+  padding: 0px 0;
+  width: 26px;
+  vertical-align: middle;
+  position: relative;
   top: initial;
-  right: 20px;
+  right: 0;
   cursor: pointer;
    @media (min-width: $desktop-breakpoint + 1) {
     display: none;
@@ -85,27 +106,6 @@ padding: 0px 20px;
 
 /*custom edits*/
 
-label.dark-toggle{
-height: fit-content;
-vertical-align: middle;
-}
-
-
-li.navigation__item.dark-toggle.mobile{
-float: right;
-padding-right: 1.75rem;
-padding-top: 3.5px;
-}
-
-li.navigation__item.dark-toggle.mobile::after{
-content:"|";
-color: rgba(255,255,255,0.95);
-padding:0 0.2rem 0 0.35rem;
-vertical-align:text-top;
-margin-top: -12px;
-    font-size: 23px;
-    display: inline-block;
-}
 
 /*.mobile-navigation__wrapper {
 
