@@ -211,6 +211,7 @@ class MobileNavigation extends React.Component {
 	  
 	  
 	  <li class="navigation__item">
+	  
         <img
           src={this.state.isMenuVisible ? clearIcon : hamburgerIcon}
           className="mobile-navigation__menu"

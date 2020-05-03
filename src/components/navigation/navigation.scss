@@ -149,7 +149,7 @@ li.navigation__item.dark-toggle::after{
     display: inline-flex;
     vertical-align: baseline;
     font-size: 26px;
-    padding: 0px 6.5px;
+    padding: 1px 6.5px;
 	
 	 @media (min-width: $desktop-breakpoint + 1) {
     display: none;
