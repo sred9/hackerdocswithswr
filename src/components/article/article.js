@@ -118,7 +118,6 @@ class IndexRoute extends React.Component {
 	 
 	  
 	  
-	  
      
                 </Helmet>
 		
