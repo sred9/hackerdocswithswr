@@ -7,8 +7,8 @@
 
   @media (max-width: $desktop-breakpoint) {
     margin-right: 0px;
-	 vertical-align: middle;
-	 margin-top: -3px;
+	 margin-top: 0px;
+	 display: inline-flex;
   }
 }
 
@@ -109,7 +109,14 @@ li.navigation__item.dark-toggle.mobile{
 
 padding-right: 1.75rem;
 padding-top: 3.5px;
+
 }
+
+
+li.navigation__item.dark-toggle label.dark-toggle{
+display: inline-flex;
+}
+
 
 li.navigation__item.dark-toggle label.dark-toggle:hover{
 cursor: pointer;
@@ -117,8 +124,8 @@ cursor: pointer;
 
 li.navigation__item.dark-toggle label.dark-toggle svg{
 fill: var(--darkToggle);
-height: 26px;
-width: 26px;
+height: 27px;
+width: 27px;
 margin-top: 0px;
 }
 
@@ -132,42 +139,103 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.
 
 
 
-li.navigation__item.dark-toggle {
-margin-top: 0px;
-line-height: 1;
-margin-right: 0;
-display: inline-block;
 
-} 
-
-
-
-li.navigation__item.dark-toggle::after{
-	content: "|";
-    color: rgba(255,255,255,0.2);
-    margin-top: 0px;
-    display: inline-flex;
-    vertical-align: baseline;
-    font-size: 26px;
-    padding: 1px 6.5px;
-	
-	 @media (min-width: $desktop-breakpoint + 1) {
-    display: none;
-  }
-
-}
 
 
 
 label.dark-toggle{
 height: fit-content;
 vertical-align: middle;
+display: inline-flex;
+}
+
+
+
+
+li.navigation__item.menu-toggle::before{
+
+ @media (max-width: $desktop-breakpoint) {
+content: "|";
+    color: rgba(255,255,255,0.2);
+    margin-top: 0px;
+    display: inline-flex;
+    vertical-align: sub;
+    font-size: 29px;
+    padding: 0px 6.5px;
+	line-height: 1;
+
+}
 
 }
 
 
 
 
+/*
+
+li.navigation__item.menu-toggle::before{
+content: "|";
+    color: rgba(255,255,255,0.2);
+	    color: rgba(255,255,255,0.2);
+    margin-top: 0px;
+    display: inline-flex;
+    vertical-align: sub;
+    font-size: 29px;
+    padding: 0px 6px;
+	line-height: 1;
+}
+
+*/
 
 
 
+
+li.navigation__item.dark-toggle {
+margin-top: 0px;
+margin-right: 0;
+display: inline-flex;
+vertical-align: text-top;
+margin-top: -0.65px;
+	
+  @media (max-width: $desktop-breakpoint) {
+display: table-cell;
+margin-top: 0px;
+vertical-align: middle;
+
+
+
+
+  }
+
+} 
+
+li.navigation__item.menu-toggle {
+margin-top: 0px;
+margin-right: 0;
+display: table-cell;
+
+  @media (max-width: $desktop-breakpoint) {
+display: table-cell;
+margin-top: 0;
+
+  }
+
+} 
+
+
+.toggle-list{
+display: table-cell;
+float: right;
+
+
+  @media (max-width: $desktop-breakpoint) {
+display: table-cell;
+float: right;
+  }
+}
+
+img.mobile-navigation__menu{
+  height: 29px;
+  vertical-align: middle;
+
+}
