@@ -1,0 +1,71 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: jQuery Introduction
+      path: /hackers/edit-the-doc-site.jQuery
+    - title: jQuery Getting Started
+      path: /hackers/hacker-start-up-guide.jQuery
+    - title: jQuery Syntax   
+      path: /hackers/passwords.jQuery
+      
+
+
+- title: jQuery Basics
+  id: visible
+  items:
+    - title: jQuery Selectors
+      path: /hackers/reputation.jQuery
+    - title: jQuery Events
+      path: /hackers/reputation.jQuery
+    - title: jQuery Show/ Hide
+      path: /hackers/hacker-dashboard.jQuery
+    - title: jQuery Fade
+      path: /hackers/badges.jQuery
+    - title: jQuery Slide
+      path: /hackers/thanks.jQuery
+    - title: jQuery Animation
+      path: /hackers/payments.jQuery
+    - title: jQuery Stop
+      path: /hackers/payments.jQuery
+    - title: jQuery Chaining
+      path: /hackers/payments.jQuery  
+    - title: jQuery Callback
+      path: /hackers/payments.jQuery
+    - title: jQuery Get/ Set
+      path: /hackers/payments.jQuery
+    - title: jQuery Insert
+      path: /hackers/payments.jQuery
+      
+    - title: jQuery Remove
+      path: /hackers/hacker-dashboard.jQuery
+    - title: jQuery CSS Classes
+      path: /hackers/badges.jQuery
+    - title: jQuery Style Properties    
+      path: /hackers/thanks.jQuery
+    - title: jQuery Dimensions
+      path: /hackers/payments.jQuery
+
+
+- title: jQuery Advanced
+  id: visible
+  items:
+    - title: jQuery Traversing
+      path: /hackers/payments.jQuery
+    - title: jQuery Ancestors
+      path: /hackers/payments.jQuery  
+    - title: jQuery Descendants
+      path: /hackers/payments.jQuery
+    - title: jQuery Siblings
+      path: /hackers/payments.jQuery
+    - title: jQuery Filtering
+      path: /hackers/payments.jQuery
+      
+    - title: jQuery Ajax
+      path: /hackers/hacker-dashboard.jQuery
+    - title: jQuery Load
+      path: /hackers/badges.jQuery
+    - title: jQuery Get/ Post    
+      path: /hackers/thanks.jQuery
+    - title: jQuery No-conflict
+      path: /hackers/payments.jQuery

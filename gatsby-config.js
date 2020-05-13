@@ -16,6 +16,19 @@ module.exports = {
 	'gatsby-plugin-dark-mode',
     'gatsby-plugin-optimize-svgs',
 	`gatsby-plugin-offline`,
+	
+	/*{
+  resolve: 'gatsby-plugin-html2amp',
+  options: {
+    files: ['/*.html'],
+    publicPath: 'public',
+    //gaConfigPath: 'gaConfig.json',
+    dist: 'public/dist',
+    optimize: true,
+    htmlPlugins: [],
+    cssPlugins: [],
+  },
+},*/
 
 	{
       resolve: `gatsby-plugin-manifest`,
@@ -28,6 +41,9 @@ module.exports = {
         display: `standalone`,
       },
     },	
+	
+
+
 	{
   resolve: `gatsby-plugin-offline`,
   options: {
@@ -106,6 +122,8 @@ module.exports = {
             toasterDuration: 5000
           },
         },*/
+		
+		
           {
             resolve: 'gatsby-remark-autolink-headers',
             options: {

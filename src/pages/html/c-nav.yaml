@@ -1,0 +1,110 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: C Introduction
+      path: /hackers/edit-the-doc-site.C
+    - title: C Getting Started
+      path: /hackers/hacker-start-up-guide.C
+    - title: C Syntax   
+      path: /hackers/passwords.C
+      
+
+
+- title: Basics
+  id: visible
+  items:
+    - title: C Keywords and Identifiers
+      path: /hackers/reputation.C
+    - title: C Variables and Constants
+      path: /hackers/reputation.C
+    - title: C Datatypes
+      path: /hackers/hacker-dashboard.C
+    - title: C Input & Output
+      path: /hackers/badges.C
+    - title: C Operators
+      path: /hackers/thanks.C
+    
+- title: Flow Control
+  id: visible
+  items:
+    - title: C if..else
+      path: /hackers/reputation.C
+    - title: C for loop
+      path: /hackers/reputation.C
+    - title: C while loop
+      path: /hackers/hacker-dashboard.C
+    - title: C break and continue
+      path: /hackers/badges.C
+    - title: C goto
+      path: /hackers/thanks.C
+
+- title: Functions
+  id: visible
+  items:
+    - title: C Functions
+      path: /hackers/reputation.C
+    - title: C User-defined Functions
+      path: /hackers/reputation.C
+    - title: C Function Types
+      path: /hackers/hacker-dashboard.C
+    - title: C Recursion
+      path: /hackers/badges.C
+    - title: C Storage Class
+      path: /hackers/thanks.C
+
+
+- title: Arrays
+  id: visible
+  items:
+    - title: C Arrays
+      path: /hackers/reputation.C
+    - title: C Multi-dimensional Arrays
+      path: /hackers/reputation.C
+    - title: C Arrays & Functions
+      path: /hackers/hacker-dashboard.C
+
+
+- title: Pointers
+  id: visible
+  items:
+    - title: C Pointers
+      path: /hackers/reputation.C
+    - title: C Pointers & Arrays    
+      path: /hackers/reputation.C
+    - title: C Pointers & Functions
+      path: /hackers/hacker-dashboard.C
+    - title: C Memory Allocation
+      path: /hackers/badges.C
+    - title: C Storage Class
+      path: /hackers/thanks.C
+
+- title: Strings
+  id: visible
+  items:
+    - title: C Strings
+      path: /hackers/payments.C
+    - title: C String Functions
+      path: /hackers/payments.C  
+    - title: C Descendants
+      path: /hackers/payments.C 
+   
+- title: Structures & Unions
+  id: visible
+  items:
+    - title: C Structure
+      path: /hackers/reputation.C
+    - title: C Structure & Pointers    
+      path: /hackers/reputation.C
+    - title: C Structure & Functions
+      path: /hackers/hacker-dashboard.C
+    - title: C Unions
+      path: /hackers/badges.C
+
+
+- title: Files
+  id: visible
+  items:
+    - title: C Files Input/ Output
+      path: /hackers/payments.C
+     

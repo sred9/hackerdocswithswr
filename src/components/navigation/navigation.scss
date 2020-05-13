@@ -108,7 +108,7 @@
 li.navigation__item.dark-toggle.mobile{
 
 padding-right: 1.75rem;
-padding-top: 3.5px;
+padding-top: 4px;
 
 }
 
@@ -127,6 +127,9 @@ fill: var(--darkToggle);
 height: 27px;
 width: 27px;
 margin-top: 0px;
+   @media (max-width: $desktop-breakpoint + 1) {
+    margin-top: 3px;
+  }
 }
 
 
@@ -195,7 +198,7 @@ margin-top: 0px;
 margin-right: 0;
 display: inline-flex;
 vertical-align: text-top;
-margin-top: -0.65px;
+margin-top: -0.75px;
 	
   @media (max-width: $desktop-breakpoint) {
 display: table-cell;

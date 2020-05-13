@@ -1,0 +1,66 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: Materialize Introduction
+      path: /hackers/edit-the-doc-site.C
+    - title: Materialize Getting Started
+      path: /hackers/hacker-start-up-guide.C
+      
+
+
+- title: Basics
+  id: visible
+  items:
+    - title: Materialize Colors
+      path: /hackers/reputation.C
+    - title: Materialize Grids
+      path: /hackers/reputation.C
+    - title: Materialize Helpers
+      path: /hackers/hacker-dashboard.C
+    - title: Materialize Media
+      path: /hackers/badges.C
+    - title: Materialize Shadows
+      path: /hackers/thanks.C
+    - title: Materialize Tables
+      path: /hackers/thanks.C    
+    - title: Materialize Typography
+      path: /hackers/badges.C
+    - title: Materialize Badges
+      path: /hackers/thanks.C
+    - title: Materialize Buttons
+      path: /hackers/thanks.C  
+    - title: Materialize Breadcrumbs
+      path: /hackers/badges.C
+    - title: Materialize Cards
+      path: /hackers/thanks.C
+    - title: Materialize Chips
+      path: /hackers/thanks.C  
+      
+    - title: Materialize Collections
+      path: /hackers/reputation.C
+    - title: Materialize Footer
+      path: /hackers/reputation.C
+    - title: Materialize Form
+      path: /hackers/hacker-dashboard.C
+    - title: Materialize Icons
+      path: /hackers/badges.C
+    - title: Materialize Navbar
+      path: /hackers/thanks.C
+- title: Advanced
+  id: visible
+  items:
+    - title: Materialize Pagination
+      path: /hackers/thanks.C    
+    - title: Materialize Preloader
+      path: /hackers/badges.C
+    - title: Materialize Collapsible
+      path: /hackers/thanks.C
+    - title: Materialize Dialogs
+      path: /hackers/thanks.C  
+    - title: Materialize Dropdowns
+      path: /hackers/badges.C
+    - title: Materialize Tabs
+      path: /hackers/thanks.C
+    - title: Materialize Waves
+      path: /hackers/thanks.C  

@@ -1,6 +1,6 @@
 @import '../../css/variables';
 
-$sidebar-desktop-width: 220px;
+$sidebar-desktop-width: 210px;
 $sidebar-tablet-width: 160px;
 
 .sidebar {
@@ -30,7 +30,7 @@ $sidebar-tablet-width: 160px;
 }
 
 .sidebar__body {
-  padding: 24px 48px 24px 0;
+  padding: 32px 12px 24px 0;
   flex: 1;
 
   @media (min-width: $tablet-breakpoint) {
@@ -144,3 +144,6 @@ display: block;
 h3#visible{
 color: var(--linkNormal);
 }
+
+
+

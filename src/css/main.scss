@@ -4,7 +4,7 @@
 
 body {
 --textNormal: rgba(14, 30, 37, 0.87);
---textNeutral: rgba(255,255,255,0.87) ;
+--textNeutral: rgba(255,255,255,0.87);
 --codeNormal: /*#252c33;*/ rgba(14, 30, 37, 0.87);
 --textHeading: rgba(14, 30, 37, 0.9);
 --bodyBackground: #f9f9f9;
@@ -14,6 +14,7 @@ body {
 --linkNormal: #53f; /*#6200EE*/
 --dropdownMenu: #FFF;
 --searchBackground:#FFF;
+--searchBoxshadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 --searchColor: rgba(14, 30, 37, 0.87); 
 --border: 1px solid rgba(0, 0, 0, 0.05);
 --theadBackground: transparent;
@@ -48,7 +49,7 @@ body {
 --prism-string: #a2466c;
 --prism-empty: #e0d7d1;
 
-
+--scrollBar-track: #eee;
 
 color: var(--textNormal);
 background: var(--bodyBackground);
@@ -69,6 +70,7 @@ body.dark{
 --dropdownMenu: #2D2D2D;
 --searchBackground: #2D2D2D;
 --searchColor: rgba(255,255,255, 0.95); 
+--searchBoxshadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 --border: 1px solid #2D2D2D;
 --tdBorder: 1px solid #2C2C2C;
 --theadBackground:transparent;
@@ -91,6 +93,7 @@ body.dark{
 --prism-string: #ffb238;
 --prism-empty: #e0d7d1;
 
+--scrollBar-track: #2d2d2d;
 
 color: var(--textNormal);
 background: var(--bodyBackground);
@@ -113,17 +116,18 @@ td, th{
 border-bottom: var(--tdBorder);
 }
 
-
-p code.language-text{
+p,li{
+ code.language-text{
 	color: var(--codeColor);
 	background: var(-codeBackground)!important;
-	border: 0px solid!important;
-	font-size: 17px;
-	vertical-align: text-top;
+	border: 1px solid var(--border);
+	font-size: 15px;
+	vertical-align: middle;
+	
 	
 }
 
-
+}
 
 
 body {
@@ -152,12 +156,24 @@ font-weight: 500;
 
 code, pre, iframe, table, .gatsby-highlight{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     top: 0;
     left: 0;
     vertical-align: middle;
 
 }
+
+/*
+tbody{
+width: 100%;
+display:block;
+overflow: auto;
+}
+
+tr{
+display: block;
+}
+*/
 
 thead{
 background-color: var(--theadBackground);
@@ -581,7 +597,9 @@ pre[class*=language-] {
 	/*text-shadow: 0 1px #fff;*/
 	text-shadow: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 15px;
+	/*font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;*/
+	/*font-size: 15px;*/
+	font-size: 16px;
 	font-weight: 400;
 	text-align: left;
 	white-space: pre;
@@ -772,7 +790,14 @@ display: none;
 	    display: block;
     width: fit-content;
     margin-bottom: 0.5rem;
+	position: sticky;
 	
+}
+
+.gatsby-highlight pre[class="language-text"]::before {
+    content: "html";
+    color: #ffffff;
+    background: royalblue;
 }
 
 .gatsby-highlight pre[class="language-html"]::before {
@@ -847,7 +872,7 @@ display: none;
 ::-webkit-scrollbar-track {
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-	background: var(--dropdownMenu);
+	background: var(--scrollBar-track);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -983,4 +1008,10 @@ body, body.dark {
 }
 }
 
+
+@media print{
+.search{
+display: none;
+}
+}
 /*basic print query styling*/

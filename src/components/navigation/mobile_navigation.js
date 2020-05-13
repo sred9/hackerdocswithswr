@@ -122,12 +122,12 @@ class MobileNavigation extends React.Component {
 
 
       <ul className="navigation__list">
-        <NavItem linkTo="/html.html" title="HTML" />
-		<NavItem linkTo="/bootstrap.html" title="CSS" />
-        <NavItem linkTo="/programs.html" title="Javascript" />
+        <NavItem linkTo="/html/" title="HTML" />
+		<NavItem linkTo="/css/" title="CSS" />
+        <NavItem linkTo="/javascript/" title="Javascript" />
        
-        <NavItem linkTo="/changelog" title="Bootstrap" />
-        <NavItem linkTo="/accessibility" title="React" />
+        <NavItem linkTo="/bootstrap/" title="Bootstrap" />
+        <NavItem linkTo="/react/" title="React" />
 		
 		
 

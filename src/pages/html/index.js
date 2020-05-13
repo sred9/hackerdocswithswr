@@ -37,6 +37,7 @@ export const pageQuery = graphql`
         title
         bookIndexFor
         description
+		imagepath
       }
     }
   }

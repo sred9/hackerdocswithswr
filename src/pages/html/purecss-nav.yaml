@@ -1,0 +1,28 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: Pure CSS Introduction
+      path: /hackers/edit-the-doc-site.C
+    - title: Pure CSS Getting Started
+      path: /hackers/hacker-start-up-guide.C
+    - title: Pure CSS Responsive Design   
+      path: /hackers/passwords.C
+      
+
+
+- title: Components
+  id: visible
+  items:
+    - title: Pure CSS Grids
+      path: /hackers/reputation.C
+    - title: Pure CSS Forms
+      path: /hackers/reputation.C
+    - title: Pure CSS Buttons
+      path: /hackers/hacker-dashboard.C
+    - title: Pure CSS Tables
+      path: /hackers/badges.C
+    - title: Pure CSS Images
+      path: /hackers/thanks.C
+    - title: Pure CSS Icons
+      path: /hackers/thanks.C    

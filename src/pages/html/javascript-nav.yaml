@@ -1,0 +1,83 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: HTML Introduction
+      path: /hackers/edit-the-doc-site.html
+    - title: HTML Elements
+      path: /hackers/hacker-start-up-guide.html
+    - title: HTML Attributes   
+      path: /hackers/passwords.html
+
+- title: HTML Basics
+  id: visible
+  items:
+    - title: HTML Headings
+      path: /hackers/reputation.html
+    - title: HTML Paragraphs
+      path: /hackers/reputation.html
+    - title: HTML Paragraphs
+      path: /hackers/hacker-dashboard.html
+    - title: HTML Links
+      path: /hackers/badges.html
+    - title: HTML Text Formatting
+      path: /hackers/thanks.html
+    - title: HTML Styles
+      path: /hackers/payments.html
+    - title: HTML Images
+      path: /hackers/payments.html
+    - title: HTML Tables
+      path: /hackers/payments.html  
+    - title: HTML Lists
+      path: /hackers/payments.html
+    - title: HTML Forms
+      path: /hackers/payments.html
+    - title: HTML Iframes
+      path: /hackers/payments.html
+
+- title: HTML Advanced
+  id: visible
+  items:
+    - title: HTML DocTypes
+      path: /hackers/hacker-dashboard.html
+    - title: HTML Layout
+      path: /hackers/badges.html
+    - title: HTML Head
+      path: /hackers/thanks.html
+    - title: HTML Meta
+      path: /hackers/payments.html
+    - title: HTML Scripts
+      path: /hackers/payments.html
+    - title: HTML Entities
+      path: /hackers/payments.html  
+    - title: HTML URL
+      path: /hackers/payments.html
+    - title: HTML URL Encode
+      path: /hackers/payments.html
+    - title: HTML Validation
+      path: /hackers/payments.html
+- title: Features
+  id: visible
+  items:
+    - title: HTML New Input Types
+      path: /hackers/hacker-dashboard.html
+    - title: HTML Canvas
+      path: /hackers/badges.html
+    - title: HTML SVG
+      path: /hackers/thanks.html
+    - title: HTML Audio
+      path: /hackers/payments.html
+    - title: HTML Video
+      path: /hackers/payments.html
+    - title: HTML Web Storage
+      path: /hackers/payments.html  
+    - title: HTML Application Cache
+      path: /hackers/payments.html
+    - title: HTML Web Workers
+      path: /hackers/payments.html
+    - title: HTML SSE
+      path: /hackers/payments.html
+    - title: HTML Geolocation
+      path: /hackers/payments.html
+    - title: HTML Drag & Drop   
+      path: /hackers/payments.html

@@ -1,0 +1,88 @@
+- title: Getting Started
+  id: visible
+  items:
+
+    - title: SQL Introduction
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Getting Started
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Syntax  
+      path: /hackers/passwords.html
+
+- title: SQL Basics
+  id: visible
+  items:
+    - title: SQL Create Database
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Create Table
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Constraits  
+      path: /hackers/passwords.html
+    - title: SQL Insert
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Select
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Where  
+      path: /hackers/passwords.html
+    - title: SQL AND & OR
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL IN & Between
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Order By  
+      path: /hackers/passwords.html
+    - title: SQL Top/ Limit
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Distinct
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Update  
+      path: /hackers/passwords.html
+    - title: SQL Delete
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Truncate Table
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Drop  
+      path: /hackers/passwords.html
+      
+    - title: SQL Joining Tables
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Inner Join
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Left Join  
+      path: /hackers/passwords.html
+    - title: SQL Right Join
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Full Join
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Cross Join  
+      path: /hackers/passwords.html
+
+- title: SQL Advanced
+  id: visible
+  items:
+    - title: SQL Union
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Like
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Alter Table 
+      path: /hackers/passwords.html
+    - title: SQL Aliases
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Group By
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Having  
+      path: /hackers/passwords.html
+    - title: SQL Create View
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Create Index
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Dates and Times
+      path: /hackers/passwords.html
+    - title: SQL Cloning Tables
+      path: /hackers/edit-the-doc-site.html
+    - title: SQL Temporary Tables
+      path: /hackers/hacker-start-up-guide.html
+    - title: SQL Subqueries  
+      path: /hackers/passwords.html
+    - title: SQL Injection
+      path: /hackers/edit-the-doc-site.html
+    
